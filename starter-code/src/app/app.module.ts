@@ -12,7 +12,7 @@ import { MymovieComponent } from './pages/mymovie/mymovie.component';
 
 const myRoutes: Routes = [
     { path: 'home', component: MyhomeComponent},
-    { path: 'movie/:id', component: MymovieComponent}
+    { path: 'movie/:theMovieId', component: MymovieComponent}
   ];
 
 @NgModule({

@@ -110,7 +110,16 @@ export class CinemaService {
     return this.movies;
   }
 
-  getMovie(id){
-    return this.movies.id;
+  getMovieDetails(moveId: number){
+    let foundMovie;
+
+    this.movies.forEach((oneMovie) => {
+      if(oneMovie.id === oneMovie) {
+        foundMovie = oneMovie
+      }
+    });
+
+    return foundMovie;
+
   }
 }
