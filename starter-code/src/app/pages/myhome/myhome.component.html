@@ -1,0 +1,10 @@
+<h2> Movies </h2>
+
+
+<div>
+  <ul>
+    <li *ngFor = "let oneMovie of cinemaThang.getMovies()">
+      <h3> {{ oneMovie.title }}</h3>
+    </li>
+  </ul>
+</div>
