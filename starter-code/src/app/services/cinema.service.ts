@@ -14,6 +14,7 @@ export class CinemaService {
       ],
       year: 1994,
       director: "Frank Darabont",
+      room: 1,
       actors: [
         "Tim Robbins",
         "Morgan Freeman",
@@ -32,6 +33,7 @@ export class CinemaService {
       ],
       year: 1972,
       director: "Francis Ford Coppola",
+      room: 2,
       actors: [
         "Marlon Brando",
         "Al Pacino",
@@ -50,6 +52,7 @@ export class CinemaService {
       ],
       year: 1974,
       director: "Francis Ford Coppola",
+      room: 3,
       actors: [
         "Al Pacino",
         "Robert Duvall",
@@ -68,6 +71,7 @@ export class CinemaService {
       ],
       year: 2008,
       director: "Christopher Nolan",
+      room: 4,
       actors: [
         "Christian Bale",
         "Heath Ledger",
@@ -77,7 +81,7 @@ export class CinemaService {
         "Gary Oldman"
       ]
     }, {
-    
+
       id: 5,
       title: "Schindler's List",
       poster: "https://i.imgur.com/IWZJOmu.jpg",
@@ -87,6 +91,7 @@ export class CinemaService {
       ],
       year: 1993,
       director: "Steven Spielberg",
+      room: 5,
       actors: [
         "Liam Neeson",
         "Ben Kingsley",

@@ -5,6 +5,9 @@
   <ul>
     <li *ngFor = "let oneMovie of cinemaThang.getMovies()">
       <h3> {{ oneMovie.title }}</h3>
+      <h4> ROOM {{ oneMovie.room }}</h4>
+      <img [src] = "oneMovie.poster" />
+      <a [routerLink]="['/movies', oneMovie.id]"> See Details </a>
     </li>
   </ul>
 </div>
